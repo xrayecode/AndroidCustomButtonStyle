@@ -1,0 +1,234 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginLeft="3dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Orange"
+            android:id="@+id/button"
+            style="@style/btnStyleOrange" />
+
+        <Button
+            style="@style/btnStyleSandrift"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Sandrift"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="6dp" />
+
+        <Button
+            style="@style/btnStyleGenoa"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Genoa"
+            android:id="@+id/button3"
+            android:layout_marginLeft="6dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Arsenic"
+            android:id="@+id/button"
+            style="@style/btnStyleArsenic" />
+
+        <Button
+            style="@style/btnStyleHaiti"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Haiti"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="6dp" />
+
+        <Button
+            style="@style/btnStyleBlackpearl"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Blackpearl"
+            android:id="@+id/button3"
+            android:layout_marginLeft="6dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp" >
+
+        <Button
+            style="@style/btnStyleBreakerBay"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="BreakerBay"
+            android:id="@+id/button4" />
+
+        <Button
+            style="@style/btnStyleShakespeare"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Shakespeare"
+            android:id="@+id/button5"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="6dp"
+            android:singleLine="true" />
+
+        <Button
+            style="@style/btnStyleSeagull"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Orange"
+            android:id="@+id/button6"
+            android:layout_marginLeft="6dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp" >
+
+        <Button
+            style="@style/btnStyleBeige"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Beige"
+            android:id="@+id/button7" />
+
+        <Button
+            style="@style/btnStyleAcapulco"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Acapulco"
+            android:id="@+id/button8"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="6dp" />
+
+        <Button
+            style="@style/btnStylelivid_brown"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Brown"
+            android:id="@+id/button9"
+            android:layout_marginLeft="6dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp" >
+
+        <Button
+            style="@style/btnStylemedium_wood"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Wood"
+            android:id="@+id/button10" />
+
+        <Button
+            style="@style/btnStyleopal"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Opal"
+            android:id="@+id/button11"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="6dp" />
+
+        <Button
+            style="@style/btnStylesorbus"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Sorbus"
+            android:id="@+id/button12"
+            android:layout_marginLeft="6dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp" >
+
+        <Button
+            style="@style/btnStylePaprika"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Paprika"
+            android:id="@+id/button13" />
+
+        <Button
+            style="@style/btnStyleWhiskey"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Whiskey"
+            android:id="@+id/button14"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="6dp" />
+
+        <Button
+            style="@style/btnStylepale_brown"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Brown"
+            android:id="@+id/button15"
+            android:layout_marginLeft="6dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp" >
+
+        <Button
+            style="@style/btnStyledark_khaki"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Khaki"
+            android:id="@+id/button16" />
+
+        <Button
+            style="@style/btnStylelemon_chiffon"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Chiffon"
+            android:id="@+id/button17"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="6dp" />
+
+        <Button
+            style="@style/btnStrawberry"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Strawberry"
+            android:id="@+id/button18"
+            android:layout_marginLeft="6dp" />
+    </LinearLayout>
+
+</LinearLayout>
